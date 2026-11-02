@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst";
-    systems.url = "github:nix-systems/default/refs/pull/3/merge";
+    systems.url = "github:nix-systems/default";
 
     blueprint = {
       url = "github:numtide/blueprint";
