@@ -91,7 +91,7 @@
 
   system.autoUpgrade = {
     enable = true;
-    flake = "github:nim65s/mfja-config";
+    flake = "github:aip-primeca-occitanie/mfja-config";
   };
 
   system.stateVersion = "26.05";

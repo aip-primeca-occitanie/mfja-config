@@ -22,6 +22,6 @@ VirtualBox ./result/*.ova
       run github:nix-community/disko#disko-install \
        -- \
        --write-efi-boot-entries \
-       --flake github:nim65s/mfja-config#development \
+       --flake github:aip-primeca-occitanie/mfja-config#development \
        --disk main /dev/nvme0n1
     ```
