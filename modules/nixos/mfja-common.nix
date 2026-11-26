@@ -89,6 +89,10 @@
       "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
       "ros:JR95vUYsShSqfA1VTYoFt1Nz6uXasm5QrcOsGry9f6Q="
     ];
+    trusted-users = [
+      "admin"
+      "cpene"
+    ];
   };
 
   system.autoUpgrade = {
